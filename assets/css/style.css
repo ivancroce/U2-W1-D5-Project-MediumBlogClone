@@ -204,13 +204,25 @@ header ul {
   align-items: center;
 }
 
-/* 2nd article and aside section */
-
+/* 2nd Article Section and Aside/Sidebar Section */
+/* to continue and fix */
 .articles-container {
   display: flex;
+  justify-content: space-between;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 40px 30px;
 }
 
-/* to continue */
+.article-img {
+  width: 200px;
+}
+
+.article-content2 {
+  display: flex;
+  max-width: 800px;
+}
+
+aside {
+  max-width: 300px;
+}
