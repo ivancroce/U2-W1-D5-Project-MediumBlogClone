@@ -15,7 +15,7 @@ body {
 
 header {
   background-color: #ffc017;
-  height: 75px;
+  padding-block: 1.2rem;
   border-bottom: 1px solid #191919;
   position: fixed;
   width: 100%;
@@ -23,6 +23,14 @@ header {
   transition: background-color 0.5s ease;
 }
 
+/* Container Class to use in all sections */
+.container {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 0 30px;
+}
+
+/* Scroll class with JS to change the header/navbar's style */
 header.scrolled {
   background-color: white;
 }
@@ -36,11 +44,6 @@ header.scrolled {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
-  width: 100%;
-  max-width: 1200px;
-  margin-inline: auto;
-  padding: 0 30px;
 }
 
 header a {
@@ -84,14 +87,7 @@ header ul {
   padding-top: 75px;
 }
 
-.hero-container {
-  max-width: 1200px;
-  margin-inline: auto;
-  padding: 0 30px;
-}
-
 .hero-content {
-  max-width: 600px;
   padding: 5.6rem 0;
 }
 
@@ -132,8 +128,6 @@ header ul {
 }
 
 .trending-container {
-  max-width: 1200px;
-  margin-inline: auto;
   padding: 50px 30px;
 }
 
@@ -230,9 +224,6 @@ header ul {
 /* to continue and fix */
 .articles-container {
   display: flex;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-inline: 30px;
   padding-top: 5rem;
 }
 
